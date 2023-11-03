@@ -5,7 +5,8 @@ export const styles = StyleSheet.create({
      },
      grTop: {
           flex: 5,
-          backgroundColor: 'red',
+          justifyContent: 'center',
+          alignItems: 'center',
      },
      grBoddy: {
           flex: 6,
@@ -42,5 +43,27 @@ export const styles = StyleSheet.create({
           fontSize: 20,
           fontWeight: 700,
           marginTop: 10,
+     },
+     right: {
+          justifyContent: 'flex-end',
+     },
+     btnGr: {
+          flexDirection: 'row',
+     },
+     textAmount: {
+          color: '#000000',
+          fontSize: 20,
+          fontWeight: 700,
+     },
+     res: {
+          color: '#000000',
+          fontSize: 20,
+          fontWeight: 700,
+     },
+     textDesc: {
+          color: '#000000AB',
+          fontSize: 15,
+          fontWeight: 700,
+          lineHeight: 17,
      },
 });

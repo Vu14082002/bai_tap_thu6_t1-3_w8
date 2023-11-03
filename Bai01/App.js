@@ -8,9 +8,9 @@ export default function App() {
      return (
           <NavigationContainer>
                <Stack.Navigator screenOptions={{ headerShown: false }}>
-                    <Stack.Screen name='Layout02' component={Layout02} />
-                    <Stack.Screen name='Layout01' component={Layout01} />
                     {/* <Stack.Screen name='Layout02' component={Layout02} /> */}
+                    <Stack.Screen name='Layout01' component={Layout01} />
+                    <Stack.Screen name='Layout02' component={Layout02} />
                </Stack.Navigator>
           </NavigationContainer>
      );
